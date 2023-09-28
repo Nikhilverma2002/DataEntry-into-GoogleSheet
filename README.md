@@ -10,4 +10,5 @@ Time-Saving Convenience: Eliminate manual data entry and ensure accuracy.
 Boost productivity and maintain organized records effortlessly with saving data in organised way in sheets. 
 
 NOTE : Change the code according to your data and requirement and i am providing the script code of google app script as - "script.js" add that in your appscript before making key.
+
 NOTE : Also remove the script.js code from android studio file it is just for your reference and the code will be pasted in appscript.
