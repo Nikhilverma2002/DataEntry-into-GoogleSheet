@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/parking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/car_parking"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/pool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/swimming_pool"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/terrace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Terrace"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+    <CheckBox
+        android:id="@+id/air"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/air_conditioning"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/internet"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+    <CheckBox
+        android:id="@+id/balcony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/balcony"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/cable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cable_tv"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+   <CheckBox
+        android:id="@+id/green_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/near_green_zone"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+   <CheckBox
+        android:id="@+id/church"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/near_church"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/pot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/coffee_pot"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lexend"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/estate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/near_estate"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lexend"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+
+        <CheckBox
+            android:id="@+id/dish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dishwasher"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lexend"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

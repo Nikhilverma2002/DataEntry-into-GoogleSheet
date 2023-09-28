@@ -1,0 +1,101 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+apply plugin: 'kotlin-android'
+android {
+    namespace 'com.example.dataentry'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.dataentry"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+
+    buildFeatures
+            {
+
+                viewBinding = true
+            }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.1'
+    implementation 'com.google.firebase:firebase-storage:20.0.1'
+    implementation 'com.google.android.gms:play-services-auth:20.4.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.android.volley:volley:1.2.1'
+    //surround card view
+    implementation "com.furkanakdemir:surroundcardview:1.0.6"
+
+    //motion toast
+    implementation 'com.github.Spikeysanju:MotionToast:1.3.3.4'
+
+    //lottie
+    implementation "com.airbnb.android:lottie:3.7.0"
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //Lottie
+
+    /*implementation 'com.google.apis:google-api-services-drive:v3-rev20210413-1.32.1'*/
+
+    //fresco
+    implementation('com.facebook.fresco:fresco:2.6.0') {
+        exclude group: 'com.facebook.soloader', module: 'soloader'
+        exclude group: 'com.facebook.fresco', module: 'soloader'
+        exclude group: 'com.facebook.fresco', module: 'nativeimagefilters'
+        exclude group: 'com.facebook.fresco', module: 'nativeimagetranscoder'
+        exclude group: 'com.facebook.fresco', module: 'memory-type-native'
+        exclude group: 'com.facebook.fresco', module: 'imagepipeline-native'
+    }
+
+    // For WebP support, including animated WebP
+    implementation 'com.facebook.fresco:animated-webp:2.6.0'
+    implementation 'com.facebook.fresco:webpsupport:2.6.0'
+    implementation 'com.facebook.fresco:fresco:2.6.0'
+
+
+    //Scalable size unit(support for different size screens)
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //Library Update
+    implementation 'com.google.android.play:core:1.10.3'
+
+    // g drive libs
+   /* implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.26.0'
+    implementation('com.google.api-client:google-api-client-android:1.26.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.apis:google-api-services-drive:v3-rev136-1.25.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }*/
+}

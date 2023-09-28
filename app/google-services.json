@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48736005928",
+    "firebase_url": "https://data-entry-housing-cart-default-rtdb.firebaseio.com",
+    "project_id": "data-entry-housing-cart",
+    "storage_bucket": "data-entry-housing-cart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48736005928:android:e65fb8654e9720711e2a1d",
+        "android_client_info": {
+          "package_name": "com.example.dataentry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48736005928-cgni9csb15q1j1ci6apiuijs9mssmlsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa6AbsykMOc484oJxhVbVIjXoCJKL3Mko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48736005928-cgni9csb15q1j1ci6apiuijs9mssmlsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
